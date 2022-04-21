@@ -17,15 +17,32 @@ a, li {
   font-weight: bold;
 }
 
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
 .logo-header img {
   width: 100px;
   height: 100px;
+  margin-right: 2rem;
+}
+
+.ilove {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.ilove::after {
+  content: "❤️";
+  color: red;
 }
 
 header{
   background-color: rgb(19, 18, 18);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: .5rem 2rem;
 }
@@ -34,6 +51,12 @@ header{
   font-size: 1rem;
   font-weight: bold;
   color: white;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .nav-menu ul {
