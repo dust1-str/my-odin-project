@@ -25,7 +25,8 @@ a, li {
 .logo-header img {
   width: 100px;
   height: 100px;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  border-radius: 3px;
 }
 
 .ilove {
@@ -108,6 +109,8 @@ header{
 .first-text {
   padding: 1.5rem 1.5rem;
   background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  border: 8px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,7 +119,13 @@ header{
 
 .first-text div {
   text-align: center;
-  font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
+  font-size: 2.5rem;
+}
+
+div .thread {
+  font-weight: bold;
+  color: rgb(196, 22, 22);
+  padding-top: 1.2rem;
 }
